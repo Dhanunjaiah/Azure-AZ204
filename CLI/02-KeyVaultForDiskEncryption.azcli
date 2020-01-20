@@ -1,0 +1,20 @@
+
+az keyvault create --name "myKeyVault" --resource-group "DemoGroup" --location "Southeastasia" --enabled-for-disk-encryption True
+
+# Update existing Keyvault for DiskEncryption
+az keyvault update --name "myKeyVault" --resource-group "DemoGroup" --enabled-for-disk-encryption "true"
+
+az keyvault show --name "sonuKeyVault" --resource-group "DemoGroup" 
+
+az vm encryption enable \
+--resource-group <resource-group> \
+--name <vm-name> \
+--disk-encryption-keyvault <keyvault-name> \
+--volume-type [all | os | data] \
+--skipvmbackup
+
+# Get status of Disk encryption
+az vm encryption show --resource-group <resource-group> --name <vm-name>
+
+# Disable disk encryption (decrypt)
+az vm encryption disable --resource-group <resource-group> --name <vm-name>

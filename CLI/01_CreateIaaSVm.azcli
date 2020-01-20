@@ -1,0 +1,10 @@
+az login
+
+az account set --subscription "MSDN Platforms"
+
+az vm create \
+    --resource-group "DemoGroup" \
+    --name "test-wp1-sea-vm" \
+    --image win2016datacenter \
+    --admin-username "labuser" \
+    --admin-password "Password@123"

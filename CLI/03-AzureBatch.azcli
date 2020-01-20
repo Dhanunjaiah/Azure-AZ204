@@ -1,0 +1,70 @@
+
+#Create resource group
+az group create \
+    --name DemoGroup \
+    --location southeastasia
+
+#Create storage account
+az storage account create \
+    --resource-group DemoGroup \
+    --name sonubatchstorage \
+    --location southeastasia \
+    --sku Standard_LRS
+
+#Create batch account
+az batch account create \
+    --name sonubatchacc \
+    --storage-account sonubatchstorage \
+    --resource-group DemoGroup \
+    --location southeastasia
+
+# Login to batch account
+az batch account login \
+    --name sonubatchacc \
+    --resource-group DemoGroup \
+    --shared-key-auth
+
+# Create a batch pool with 2 nodes
+az batch pool create \
+    --id linuxpool \
+    --vm-size Standard_A1_v2 \
+    --target-dedicated-nodes 2 \
+    --image canonical:ubuntuserver:16.04-LTS \
+    --node-agent-sku-id "batch.node.ubuntu 16.04"
+
+# Get status of pool
+az batch pool show \
+    --pool-id linuxpool \
+    --query "allocationState"
+
+# Create a job
+az batch job create \
+    --id myjob \
+    --pool-id linuxpool
+
+# Create 4 tasks in pool that print env variables for batch
+for i in {1..4}
+do
+    az batch task create \
+        --task-id mytask$i \
+        --job-id myjob \
+        --command-line "/bin/bash -c 'printenv | grep AZ_BATCH; sleep 90s'"
+done
+
+# Get status of batch task1
+az batch task show \
+    --job-id myjob \
+    --task-id mytask1
+
+# Print the results 
+az batch task file list \
+    --job-id myjob \
+    --task-id mytask1 \
+    --output table
+
+# Download the results
+az batch task file download \
+    --job-id myjob \
+    --task-id mytask1 \
+    --file-path stdout.txt \
+    --destination ./stdout.txt
