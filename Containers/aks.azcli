@@ -42,3 +42,43 @@ kubectl get node
 #Get the list of pods an services
 kubectl get pods
 kubectl get svc
+
+# Deploy nginx containers in AKS
+kubectl apply -f ./Containers/nginx-deploy.yaml
+
+#Get the pod status
+kubectl get pods
+# Get replicaset details
+kubectl get rs
+
+# Get details of a pod
+kubectl describe pod nginx-747cdcb89d-55thv
+
+# Create a service for nginx (LB) 
+kubectl apply -f ./Containers/nginx-service.yaml
+
+#Get list of services
+kubectl get svc
+
+#Install nginx ingress with helm 3.0
+helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+
+helm repo update
+
+#Create a namespace for ingress resources
+kubectl create namespace ingress
+
+helm install ingress stable/nginx-ingress --namespace ingress
+
+# Get public IP of ingress
+kubectl get svc  -n ingress  ingress-nginx-ingress-controller
+
+kubectl apply -f ./Containers/nginx-ingress.yaml
+
+# Helloworld demo
+kubectl apply -f ./Containers/helloworld-deploy.yaml
+kubectl apply -f ./Containers/helloworld-service.yaml
+
+kubectl delete deploy helloworld
+kubectl delete svc helloworld-svc
+
