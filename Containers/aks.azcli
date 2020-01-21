@@ -73,6 +73,7 @@ helm install ingress stable/nginx-ingress --namespace ingress
 # Get public IP of ingress
 kubectl get svc  -n ingress  ingress-nginx-ingress-controller
 
+# replace the IP in ingress controller YAML file on host parameter
 kubectl apply -f ./Containers/nginx-ingress.yaml
 
 # Helloworld demo
