@@ -5,22 +5,23 @@ az group create \
     --location southeastasia
 
 #Create storage account
-az storage account create \
+az storage account create \    
     --resource-group DemoGroup \
-    --name sonubatchstorage \
+    --name sonubatchstorage1 \
     --location southeastasia \
+    --kind StorageV2 \
     --sku Standard_LRS
 
 #Create batch account
 az batch account create \
-    --name sonubatchacc \
-    --storage-account sonubatchstorage \
+    --name sonubatchacc1 \
+    --storage-account sonubatchstorage1 \
     --resource-group DemoGroup \
     --location southeastasia
 
 # Login to batch account
 az batch account login \
-    --name sonubatchacc \
+    --name sonubatchacc1 \
     --resource-group DemoGroup \
     --shared-key-auth
 

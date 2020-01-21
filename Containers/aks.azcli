@@ -1,0 +1,44 @@
+
+# Create resource group
+az group create -n AksGroup -l southeastasia
+
+# Create AKS Cluster
+az ad sp create-for-rbac -n AksSp
+# {
+#   "appId": "d77ef564-d498-4825-a222-0f86000a6fb7",   
+#   "displayName": "AksSp",
+#   "name": "http://AksSp",
+#   "password": "4220486d-ea77-4ed4-a1e3-5ca752d95510",
+#   "tenant": "fc73ed10-905f-4b66-85d6-ae10c14623d7"
+# }
+
+#Get available versions of Kubernetes in  your region
+az aks get-versions -l southeastasia --query 'orchestrators[-1].orchestratorVersion' -o tsv
+
+# Create AKS cluster 
+az aks create --resource-group AksGroup \
+    --name sonuakscluster \
+    --location southeastasia \
+    --kubernetes-version 1.17.0 \
+    --generate-ssh-keys \
+    --node-count 3 \
+    --node-vm-size Standard_D2s_v3 \
+    --load-balancer-sku basic \
+    --service-principal  d77ef564-d498-4825-a222-0f86000a6fb7 \
+    --client-secret 4220486d-ea77-4ed4-a1e3-5ca752d95510
+
+# Install kubectl in Client machine
+az aks install-cli
+
+# Get the version of kubectl installed
+kubectl version
+
+# Login to AKS cluster
+az aks get-credentials -n sonuakscluster -g AksGroup
+
+#Get the list of nodes
+kubectl get node
+
+#Get the list of pods an services
+kubectl get pods
+kubectl get svc

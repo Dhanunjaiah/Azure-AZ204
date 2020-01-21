@@ -7,4 +7,4 @@ az vm create \
     --name "test-wp1-sea-vm" \
     --image win2016datacenter \
     --admin-username "labuser" \
-    --admin-password "Password@123"
+    --admin-password "Password@123" 
