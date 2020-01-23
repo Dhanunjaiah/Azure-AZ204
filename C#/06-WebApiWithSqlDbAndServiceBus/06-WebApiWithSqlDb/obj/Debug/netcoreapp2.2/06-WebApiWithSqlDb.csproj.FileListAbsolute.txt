@@ -1,0 +1,16 @@
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\bin\Debug\netcoreapp2.2\06-WebApiWithSqlDb.deps.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\bin\Debug\netcoreapp2.2\06-WebApiWithSqlDb.runtimeconfig.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\bin\Debug\netcoreapp2.2\06-WebApiWithSqlDb.runtimeconfig.dev.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\bin\Debug\netcoreapp2.2\06-WebApiWithSqlDb.dll
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\bin\Debug\netcoreapp2.2\06-WebApiWithSqlDb.pdb
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\obj\Debug\netcoreapp2.2\06-WebApiWithSqlDb.csprojAssemblyReference.cache
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\obj\Debug\netcoreapp2.2\06-WebApiWithSqlDb.RazorAssemblyInfo.cache
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\obj\Debug\netcoreapp2.2\06-WebApiWithSqlDb.RazorAssemblyInfo.cs
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\obj\Debug\netcoreapp2.2\06-WebApiWithSqlDb.AssemblyInfoInputs.cache
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\obj\Debug\netcoreapp2.2\06-WebApiWithSqlDb.AssemblyInfo.cs
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\obj\Debug\netcoreapp2.2\06-WebApiWithSqlDb.RazorTargetAssemblyInfo.cache
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\obj\Debug\netcoreapp2.2\06-WebApiWithSqlDb.dll
+C:\Users\sonus\Desktop\AZ-203\Code\C#\06-WebApiWithSqlDb\06-WebApiWithSqlDb\obj\Debug\netcoreapp2.2\06-WebApiWithSqlDb.pdb

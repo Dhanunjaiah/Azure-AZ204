@@ -1,0 +1,50 @@
+
+.NET Core 2.2
+-------------
+	1) .NET Core architecture
+	2) What is new in Core?
+	3) Startup class methods
+	4) Middleware
+		- Built-in 
+		- Custom
+	5) Dependency Injection
+	6).NET Core Configuration
+	7) Web Host configuration
+	8) Developing MVC Application
+		- Tag Helpers and HTML Helpers
+		- Razor pages
+	9) Controller and Actions
+		- ActionResults
+	10) Models
+		- Model Validation
+			- Data annotations
+			- Remote validation
+			- Custom Code validation
+	11) Views
+		- Layout file
+		- ViewImports file
+		- ViewStart file
+	11) Connecting with Entity Framework Core
+	12) Web API 
+		- Attribute routing
+	
+Angular 7
+-----------
+	- What is SPA?
+	- Why angular
+	- Angular project architecture
+	- Components
+		- Event handling
+		- data binding
+		- passing data to child components
+	- Builtin Directives
+	- Pipes
+		- Custom pipes
+	- Custom directives
+	- Forms
+		- Template driven
+		- Attribute driven
+	- Connecting to REST services
+		- HttpClientModule
+	
+	

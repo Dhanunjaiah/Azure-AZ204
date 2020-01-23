@@ -76,10 +76,3 @@ kubectl get svc  -n ingress  ingress-nginx-ingress-controller
 # replace the IP in ingress controller YAML file on host parameter
 kubectl apply -f ./Containers/nginx-ingress.yaml
 
-# Helloworld demo
-kubectl apply -f ./Containers/helloworld-deploy.yaml
-kubectl apply -f ./Containers/helloworld-service.yaml
-
-kubectl delete deploy helloworld
-kubectl delete svc helloworld-svc
-

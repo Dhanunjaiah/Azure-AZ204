@@ -1,0 +1,16 @@
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\03-StorageBlob.exe
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\obj\Debug\netcoreapp3.1\03-StorageBlob.csprojAssemblyReference.cache
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\obj\Debug\netcoreapp3.1\03-StorageBlob.AssemblyInfoInputs.cache
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\obj\Debug\netcoreapp3.1\03-StorageBlob.AssemblyInfo.cs
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\03-StorageBlob.deps.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\03-StorageBlob.runtimeconfig.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\03-StorageBlob.runtimeconfig.dev.json
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\03-StorageBlob.dll
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\03-StorageBlob.pdb
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Blob.dll
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\obj\Debug\netcoreapp3.1\03-StorageBlob.csproj.CopyComplete
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\obj\Debug\netcoreapp3.1\03-StorageBlob.dll
+C:\Users\sonus\Desktop\AZ-203\Code\C#\03-StorageBlob\03-StorageBlob\obj\Debug\netcoreapp3.1\03-StorageBlob.pdb

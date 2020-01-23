@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-StorageTable", "o4-StorageTable\04-StorageTable.csproj", "{72C42794-F0F2-4416-86D0-32510F43DCCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C42794-F0F2-4416-86D0-32510F43DCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C42794-F0F2-4416-86D0-32510F43DCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C42794-F0F2-4416-86D0-32510F43DCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C42794-F0F2-4416-86D0-32510F43DCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47542CC2-E2C2-48BB-A5F8-F3E71B98D47A}
+	EndGlobalSection
+EndGlobal

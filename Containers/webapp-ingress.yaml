@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: webapp-ingress
+spec:
+  rules:
+  - host: myaks.52.230.6.127.nip.io
+    http:
+      paths:
+      - backend:
+          serviceName: webapp-svc
+          servicePort: 80
+        path: /
